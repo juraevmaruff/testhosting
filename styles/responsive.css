@@ -1,0 +1,985 @@
+@media (max-width:1800px){
+    #teacherMore .img{
+        width: 30%;
+    }
+    #teacherMore .img img{
+        width: 100%;
+    }
+    .teacher_more{
+        padding: 20px 0 50px 0;
+    }
+    .teacher_more .teacher_item_title{
+        font-size: 20px;
+    }
+    .teacher_more .teacher_item_logo img{
+        object-fit: cover;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .teacher_more .logo_info{
+        margin-top: 20px;
+        font-weight: 300;
+        padding: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .teacher_more .teacher_item_info{
+        padding: 0;
+    }
+    .teacher_more .teacher_item_info span{
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+    }
+    .teacher_more  ul li{
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width:1500px){
+    .banner_item .banner_title{
+        font-size: 36px;
+        width: 90%;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+    }
+    .banner_item .banner_info{
+        font-size: 24px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    #banner .banner_item a{
+        font-size: 24px;
+    }
+    #teacherMore .img{
+        width: 30%;
+    }
+    #teacherMore .img img{
+        width: 100%;
+    }
+}
+@media (max-width:1140px){
+    .section_header .header_navbar a{
+        font-size: 16px;
+        letter-spacing: 0;
+        margin-right: 10px;
+    }
+    .banner_item .banner_title{
+        font-size: 36px;
+        width: 90%;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+    }
+    .banner_item .banner_info{
+        font-size: 18px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    .teachers{
+        padding-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 300px;
+    }
+    .teacher_content .item_title{
+        font-size: 16px;
+        height: 40px;
+    }
+    .teacher_content .item_text{
+        font-size: 12px;
+        margin: 0;
+    }
+    #teacherMore .img{
+        width: 40%;
+    }
+    .teacher_more .teacher_item_logo .img img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .teacher_more .logo_info{
+        max-width: 50%;
+        padding: 10px;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width:1025px) { 
+    .section_header .header_navbar a{
+        font-size: 14px;
+        letter-spacing: 0;
+        margin-right: 10px;
+    }
+    .section_header .header_navbar a::after,
+    .section_header .header_navbar a::before{
+        height: 2px;
+    }
+    .banner_item .banner_title{
+        font-size: 28px;
+        width: 90%;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+    }
+    .banner_item .banner_info{
+        font-size: 14px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    .teachers{
+        padding: 0;
+    }
+    .teacher_content .item{
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 250px;
+    }
+    .teacher_content .item_title{
+        font-size: 16px;
+        height: 40px;
+    }
+    .teacher_content .item_text{
+        font-size: 12px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 5px 10px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:801px)  { 
+    .section_title{
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    /* header mobile style start */
+    .section_header .header_navbar a{
+        font-size: 12px;
+        letter-spacing: 0;
+        margin-right: 10px;
+    }
+    .section_header .header_navbar a::after,
+    .section_header .header_navbar a::before{
+        height: 1px;
+    }
+    /* header mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* banner mobile style start */
+    #banner{
+        height: 70vh;
+    }
+    .banner_item{
+        height: 70vh;
+        padding: 50px 20px;
+        max-width: 100%;
+    }
+    .banner_item .item_body{
+        margin: 0;
+    }
+    .banner_item .banner_title{
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .banner_item .banner_info{
+        font-size: 18px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    /* banner mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* info mobile style start */
+    .info{
+        padding: 0;
+    }
+    .info .info_left_title{
+        font-size: 18px;
+    }
+    .info  .info_text{
+        font-size: 12px;
+    }
+    .info .main_info .more{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    /* info mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* teacher mobile style start */
+    .teachers{
+        padding: 0;
+    }
+    .teacher_content .item{
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 200px;
+    }
+    .teacher_content .item_title{
+        font-size: 14px;
+        height: 40px;
+    }
+    .teacher_content .item_text{
+        font-size: 10px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .teachers .owl-carousel .owl-nav button.owl-next,
+    .teachers .owl-carousel .owl-nav button.owl-prev {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    /* teacher mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* contact mobile style start */
+    .contact{
+        padding: 0;
+    }
+    /* contact mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* teacherMore mobile style start */
+    .teacher_more{
+        padding: 20px 0 50px 0;
+    }
+    .teacher_more .teacher_item_title{
+        font-size: 20px;
+    }
+    .teacher_more .teacher_item_logo img{
+        object-fit: cover;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .teacher_more .logo_info{
+        margin-top: 20px;
+        font-weight: 300;
+        padding: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .teacher_more .teacher_item_info{
+        padding: 0;
+    }
+    .teacher_more .teacher_item_info span{
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+    }
+    .teacher_more  ul li{
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    /* teacherMore mobile style end */
+    /* -------------------------------------------------------------------------------------------------------- */
+    /* footer mobile style start */
+
+    /* footer mobile style end */
+ }
+@media (max-width:720px){
+    .teacher_content .item .item_img{
+        height: 180px;
+    }
+    .teacher_content .item_title{
+        font-size: 10px;
+        height: 30px;
+    }
+    .teacher_content .item_text{
+        height: 70px;
+        font-size: 8px;
+        padding: 0;
+    }
+    .teacher_content .item_btn{
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+    .footer_body{
+        flex-wrap: wrap;
+    }
+    .footer_info01, .footer_info02,
+    .footer_info03, .footer_info04{
+        margin-bottom: 30px;
+        flex: 0 0 45%;
+    }
+}
+@media (max-width:660px){
+    /* mobile section style start */
+    .header .mobile_menu{
+        transition: all .6s ease;
+        z-index: 999;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -50%;
+        width: 50%;
+        height: 100vh;
+        background: rgba(42, 42, 42, 0.6);
+    }
+    .header .mobile_menu.active{
+        width: 100%;
+        left: 0;
+    }
+    .header .mobile_menu.active .mobile_navbar{
+        width: 60%;
+    } 
+    .header .mobile_menu .mobile_navbar{
+        position: relative;
+        width: 100%;
+        background: #efefef;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header .mobile_menu .mobile_navbar a{
+        transition: all .3s ease;
+        font-size: 20px;
+        color: #1B1718;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    .header .mobile_menu .mobile_navbar a:hover{
+        color: #0036ff;
+    }
+    .header .mobile_menu .mobile_navbar a:hover i{
+        background: #0036ff;
+        color: #ffffff;
+    }
+    .header .mobile_menu .mobile_navbar a i{
+        transition: all .3s ease;
+        border: 1px solid #1B1718;
+        position: relative;
+        top: 3px;
+        padding: 6px;
+        background-color: #1B1718;
+        border-radius: 50%;
+        font-size: 18px;
+        margin-right: 10px;
+        color: #efefef;
+    }
+
+    .header .mobile_menu .opened_menu{
+        transition: all .6s ease;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        position: absolute;
+        top: 44%;
+        right: -18px;
+        background-color: #0036ff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+    }
+    .header .mobile_menu .opened_menu i{
+        position: relative;
+        right: -35px;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .header .mobile_menu .closed_menu{
+        transition: all .6s ease;
+        display: none;
+        align-items: center;
+        text-align: right;
+        position: absolute;
+        top: 44%;
+        right: -15px;
+        background-color: #efefef;
+        width: 50px;
+        height: 60px;
+        border-radius: 50%;
+
+    }
+    .header .mobile_menu .closed_menu i{
+        position: relative;
+        right: -25px;
+        font-size: 30px;
+    }
+    /* mobile section style end */
+    #banner .banner_item a{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .teacher_content .item .item_img{
+        height: 150px;
+    }
+    .teacher_content .item_title{
+        font-size: 10px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    
+    .teachers .owl-carousel .owl-nav button.owl-next,
+    .teachers .owl-carousel .owl-nav button.owl-prev {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+    }
+    #header .header_navbar{
+        display: none;
+    }
+    #header .mobileBtn{
+        display: block;
+    }
+    #header .mobileBtn i{
+        color: #000;
+        font-size: 60px;
+    } 
+    .teacher_more{
+        padding: 20px 0 50px 0;
+    }
+    .teacher_more .teacher_item_title{
+        font-size: 16px;
+    }
+    .teacher_more .teacher_item_logo img{
+        object-fit: cover;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .teacher_more .logo_info{
+        margin-top: 20px;
+        font-weight: 300;
+        padding: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .teacher_more .teacher_item_info{
+        padding: 0;
+    }
+    .teacher_more .teacher_item_info span{
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+    }
+    .teacher_more  ul li{
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #info .section_title{
+        margin-top: 170px;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width:600px)  { 
+    .section_title{
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .teacher_content .item_btn{
+        margin-top: 5px;
+        font-size: 8px;
+    }
+    /*max-w 600px header mobile style start */
+    #header .header_navbar{
+        display: none;
+    }
+    #header .mobileBtn{
+        display: block;
+    }
+    #header .mobileBtn i{
+        color: #000;
+        font-size: 60px;
+    } 
+    .section_header .header_logo,
+    .section_header .main_logo{
+        flex: 0 0 15%;
+    }
+    /*max-w 600px header mobile style end */
+
+    /*max-w 600px  banner mobile style start */
+    .banner_item{
+        height: 100vh;
+        padding: 50px 20px;
+        max-width: 100%;
+    }
+    .banner_item .item_body{
+        margin: 0;
+    }
+    .banner_item .banner_title{
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .banner_item .banner_info{
+        font-size: 14px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    #banner .banner_item a{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    /*max-w 600px  banner mobile style end */
+
+    /*max-w 600px  info mobile style start */
+    .info .main_info{
+        flex-direction: column;
+    }
+    .info .info_left_title{
+        font-size: 18px;
+    }
+    .info  .info_text{
+        font-size: 14px;
+    }
+    .info .main_info .more{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    /*max-w 600px  info mobile style end */
+
+    /*max-w 600px  teacher mobile style start */
+    .teachers{
+        padding: 0;
+    }
+    .teacher_content .item{
+        margin-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 500px;
+    }
+    .teacher_content .item_title{
+        font-size: 24px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .teacher_content .item_text{
+        font-size: 18px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        margin-top: 40px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .teachers .owl-carousel .owl-nav button.owl-next,
+    .teachers .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    /*max-w 600px  teacher mobile style end */
+
+    /*max-w 600px  contact mobile style start */
+    .contact{
+        padding: 0;
+    }
+    .contact .social_networks .item{
+        flex: 0 0 45%;
+        width: 100%;
+        padding: 20px 0;
+    }
+    /*max-w 600px  contact mobile style end */
+
+    /*max-w 600px  teacherMore mobile style start */
+    .teacher_more .teacher_item_logo{
+        flex-direction: column;
+    }
+    #teacher_more  .img{
+        width: 100%;
+    }
+    #teacher_more .img img{
+        object-fit: cover;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .teacher_more .logo_info{
+        max-width: 100%;
+        padding: 10px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    /*max-w 600px  teacherMore mobile style end */
+
+    /*max-w 600px  footer mobile style start */
+    .footer_body{
+        flex-wrap: wrap;
+    }
+    .footer_info01, .footer_info02,
+    .footer_info03, .footer_info04{
+        margin-bottom: 30px;
+        flex: 0 0 45%;
+    }
+    /*max-w 600px  footer mobile style end */
+ }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:480px)  { 
+    .section_title{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .section_title i{
+        display: none;
+    }
+    /*max-w 480px header mobile style start */
+    .header .mobile_menu.active .mobile_navbar{
+        width: 80%;
+    } 
+    .header .mobile_menu .mobile_navbar a{
+        font-size: 16px;
+    }
+    .header .section_header{
+        align-items: center;
+    }
+    #header .header_navbar{
+        display: none;
+    }
+    #header .mobileBtn{
+        display: block;
+    }
+    #header .mobileBtn i{
+        color: #000;
+        font-size: 55px;
+    } 
+    /*max-w 480px header mobile style end */
+
+    /*max-w 480px banner mobile style start */
+    .banner_item{
+        height: 100vh;
+        padding: 50px 20px;
+        max-width: 100%;
+    }
+    .banner_item .item_body{
+        margin: 0;
+    }
+    .banner_item .banner_title{
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .banner_item .banner_info{
+        font-size: 14px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    /*max-w 480px banner mobile style end */
+    
+    /*max-w 480px info mobile style start */
+    .info .main_info{
+        flex-direction: column;
+    }
+    .info .info_left_title{
+        font-size: 18px;
+    }
+    .info  .info_text{
+        font-size: 14px;
+    }
+    .info .main_info .more{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    /*max-w 480px info mobile style end */
+    
+    /*max-w 480px teacher mobile style start */
+    .teachers{
+        padding: 0;
+    }
+    .teacher_content .item{
+        margin-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 400px;
+    }
+    .teacher_content .item_title{
+        font-size: 20px;
+        height: 40px;
+    }
+    .teacher_content .item_text{
+        font-size: 16px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        margin-top: 40px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .teachers .owl-carousel .owl-nav button.owl-next,
+    .teachers .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    /*max-w 480px teacher mobile style end */
+    
+    /*max-w 480px contact mobile style start */
+    .contact{
+        padding: 0;
+    }
+    .contact .social_networks{
+        flex-direction: column;
+    }
+    .contact .social_networks .item{
+        width: 100%;
+        padding: 20px 0;
+    }
+    /*max-w 480px contact mobile style end */
+    
+    /*max-w 480px teacherMore mobile style start */
+    .teacher_more .teacher_item_title{
+        font-size: 20px;
+    }
+    .teacher_more .teacher_item_logo{
+        flex-direction: column;
+    }
+    .teacher_more .teacher_item_logo img{
+        object-fit: cover;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .teacher_more .logo_info{
+        margin-top: 20px;
+        font-weight: 300;
+        padding: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .teacher_more .teacher_item_info{
+        padding: 0;
+    }
+    .teacher_more .teacher_item_info span{
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+    }
+    .teacher_more  ul li{
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    /*max-w 480px teacherMore mobile style end */
+    
+    /*max-w 480px footer mobile style start */
+    #footer .footer_body{
+        flex-direction: column;
+    }
+    .footer_info01, .footer_info02{
+        margin-bottom: 30px;
+    }
+    /*max-w 480px footer mobile style end */
+ }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width:400px){
+    .teacher_content .item .item_img{
+        height: 330px;
+    }
+    .teacher_content .item_text{
+        font-size: 12px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .header .mobile_menu.active .mobile_navbar{
+        width: 90%;
+    } 
+}
+@media (max-width:320px)  { 
+    .section_title{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .section_title i{
+        display: none;
+    }
+    /*max-w 320px header mobile style start */
+    .header .mobile_menu.active .mobile_navbar{
+        width: 100%;
+    } 
+    .header .section_header{
+        align-items: center;
+    }
+    #header .header_navbar{
+        display: none;
+    }
+    #header .mobileBtn{
+        display: block;
+    }
+    #header .mobileBtn i{
+        color: #000;
+        font-size: 30px;
+    } 
+    /*max-w 320px header mobile style end */
+
+    /*max-w 320px banner mobile style start */
+    .banner_item{
+        height: 100vh;
+        padding: 50px 20px;
+        max-width: 100%;
+    }
+    .banner_item .item_body{
+        margin: 0;
+    }
+    .banner_item .banner_title{
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .banner_item .banner_info{
+        font-size: 14px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+    /*max-w 320px banner mobile style end */
+    
+    /* info mobile style start */
+    .info .main_info{
+        flex-direction: column;
+    }
+    .info .info_left_title{
+        font-size: 18px;
+    }
+    .info  .info_text{
+        font-size: 14px;
+    }
+    .info .main_info .more{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    /* info mobile style end */
+    
+    /* teacher mobile style start */
+    .teachers{
+        padding: 0;
+    }
+    .teacher_content .item{
+        margin-bottom: 0;
+    }
+    .teacher_content .item .item_img{
+        height: 250px;
+    }
+    .teacher_content .item_title{
+        font-size: 16px;
+        height: 40px;
+    }
+    .teacher_content .item_text{
+        font-size: 12px;
+        margin: 0;
+    }
+    .teacher_content .item_btn{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .teachers .owl-carousel .owl-nav button.owl-next,
+    .teachers .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    /* teacher mobile style end */
+    
+    /* contact mobile style start */
+    .contact{
+        padding: 0;
+    }
+    .contact .social_networks{
+        flex-direction: column;
+    }
+    .contact .social_networks .item{
+        width: 100%;
+        padding: 20px 0;
+    }
+    /* contact mobile style end */
+    
+    /* teacherMore mobile style start */
+    .teacher_more .teacher_item_title{
+        font-size: 16px;    
+    }
+    .teacher_more .teacher_item_logo{
+        flex-direction: column;
+    }
+    .teacher_more .teacher_item_logo img{
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .teacher_more .logo_info{
+        margin-top: 20px;
+        font-weight: 300;
+        padding: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .teacher_more .teacher_item_info span{
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .teacher_more  ul li{
+        font-weight: 400;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    /* teacherMore mobile style end */
+    
+    /* footer mobile style start */
+    #footer .footer_body{
+        flex-direction: column;
+    }
+    .footer_info01, .footer_info02{
+        margin-bottom: 30px;
+    }
+    /* footer mobile style end */
+
+}
+
+/* header mobile style start */
+
+/* header mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* banner mobile style start */
+
+/* banner mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* info mobile style start */
+
+/* info mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* teacher mobile style start */
+
+/* teacher mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* contact mobile style start */
+
+/* contact mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* teacherMore mobile style start */
+
+/* teacherMore mobile style end */
+/* -------------------------------------------------------------------------------------------------------- */
+/* footer mobile style start */
+
+/* footer mobile style end */
